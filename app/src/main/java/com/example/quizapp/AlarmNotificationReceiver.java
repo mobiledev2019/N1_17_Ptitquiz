@@ -26,7 +26,6 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
         NotificationCompat.Builder notiBuilder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle("Thông báo lịch học")
-                .setContentText("Thông báo lịch học ")
                 .setAutoCancel(true)
                 .setSound(notifacationSound)
                 .setContentIntent(pendingIntent);
